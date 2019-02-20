@@ -4,3 +4,5 @@ from django.db import models
 
 class Emp(model.Model):
   eno = models.IntegerField()
+
+  ename = models.CharField(max_length=100)
